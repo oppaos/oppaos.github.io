@@ -1,0 +1,11 @@
+.woocommerce-MyAccount-navigation-link--my-account a {
+	color: red;
+	font-weight: bold;
+	animation: blinker 1s linear 3;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}

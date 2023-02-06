@@ -1,0 +1,40 @@
+#cw-pay2go-ei_fields select{
+	/*border:solid 1px #999;
+	border-radius:0;
+	background-image:url(data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2224%22%20height%3D%2216%22%20viewBox%3D%220%200%2024%2016%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%20%20%20%20%3Cpolygon%20fill%3D%22%23666%22%20points%3D%2212%201%209%206%2015%206%22%3E%3C%2Fpolygon%3E%0A%20%20%20%20%3Cpolygon%20fill%3D%22%23666%22%20points%3D%2212%2013%209%208%2015%208%22%3E%3C%2Fpolygon%3E%0A%3C%2Fsvg%3E%0A);
+	background-repeat:no-repeat;
+	background-position:100% 50%;
+	background-size:inherit;
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	padding:0 5px;
+	width:100%;
+	height:32px;
+	display:block;
+	position:relative;
+	margin:0;*/
+}
+
+div#cw-pay2go-ei_need-ubn-info, 
+div#cw-pay2go-ei_bifn, 
+div#cw-pay2go-ei_org, 
+div#cw-pay2go-ei_fields SPAN.optional{
+	display:none;
+}
+
+#cw-pay2go-ei_need-ubn-info.active, 
+#cw-pay2go-ei_bifn.active, 
+#cw-pay2go-ei_org.active{
+	display:inherit;
+}
+
+#cw-pay2go-ei_fields > h3{
+	margin:0;
+}
+
+#cw-pay2go-ei_fields > div, 
+#cw-pay2go-ei_billing-ubn_field, 
+#cw-pay2go-ei_billing-ubn-title_field{
+	margin-top:15px;
+}
+
